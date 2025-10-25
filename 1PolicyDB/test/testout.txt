@@ -1,0 +1,380 @@
+[H[2J--- test policy on stack ---
+==================================
+Policy ID: 0
+Start Date: 01.01.2020
+End Date: 01.01.2021
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 1
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+Policy cost increased by 2000$
+Payout amount increased by 5000$
+==================================
+Policy ID: 0
+Start Date: 01.01.2020
+End Date: 01.01.2021
+Cost: 7000$
+Payout Amount: 15000$
+Policy Type ID: 1
+Client ID: 1
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+--- test policy on heap ---
+==================================
+Policy ID: 1
+Start Date: 01.01.2021
+End Date: 01.01.2022
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 2
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+Policy cost increased by 3000$
+Payout amount increased by 7000$
+Policy 1 has been completed.
+Payout of 17000$ marked for policy 1
+==================================
+Policy ID: 1
+Start Date: 01.01.2021
+End Date: 01.01.2022
+Cost: 8000$
+Payout Amount: 17000$
+Policy Type ID: 1
+Client ID: 2
+Employee ID: 1
+Status: Completed
+Payout: Made
+==================================
+
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Start date (dd.mm.yyyy): End date (dd.mm.yyyy): Policy type ID: Client ID: Employee ID: Policy 0 has been activated.
+Policy 0 created successfully!
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Start date (dd.mm.yyyy): End date (dd.mm.yyyy): Policy type ID: Client ID: Employee ID: Policy 1 has been activated.
+Policy 1 created successfully!
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Start date (dd.mm.yyyy): End date (dd.mm.yyyy): Policy type ID: Client ID: Employee ID: Policy 2 has been activated.
+Policy 2 created successfully!
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> 
+*** ALL POLICIES ***
+==================================
+Policy ID: 0
+Start Date: 01.01.2001
+End Date: 31.12.2001
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 1
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+==================================
+Policy ID: 1
+Start Date: 01.01.2002
+End Date: 31.12.2002
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 2
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+==================================
+Policy ID: 2
+Start Date: 01.01.2003
+End Date: 31.12.2003
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 3
+Employee ID: 2
+Status: Active
+Payout: Not Made
+==================================
+
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Policy ID: Policy 0 has been completed.
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Policy ID: Payout of 10000$ marked for policy 0
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Policy ID: Increase amount: Policy cost increased by 1000$
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> Policy ID: Increase amount: Payout amount increased by 2000$
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> 
+*** ALL POLICIES ***
+==================================
+Policy ID: 0
+Start Date: 01.01.2001
+End Date: 31.12.2001
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 1
+Employee ID: 1
+Status: Completed
+Payout: Made
+==================================
+
+==================================
+Policy ID: 1
+Start Date: 01.01.2002
+End Date: 31.12.2002
+Cost: 6000$
+Payout Amount: 12000$
+Policy Type ID: 1
+Client ID: 2
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+==================================
+Policy ID: 2
+Start Date: 01.01.2003
+End Date: 31.12.2003
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 3
+Employee ID: 2
+Status: Active
+Payout: Not Made
+==================================
+
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> 
+*** ACTIVE POLICIES ***
+==================================
+Policy ID: 1
+Start Date: 01.01.2002
+End Date: 31.12.2002
+Cost: 6000$
+Payout Amount: 12000$
+Policy Type ID: 1
+Client ID: 2
+Employee ID: 1
+Status: Active
+Payout: Not Made
+==================================
+
+==================================
+Policy ID: 2
+Start Date: 01.01.2003
+End Date: 31.12.2003
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 3
+Employee ID: 2
+Status: Active
+Payout: Not Made
+==================================
+
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> 
+*** COMPLETED POLICIES ***
+==================================
+Policy ID: 0
+Start Date: 01.01.2001
+End Date: 31.12.2001
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 1
+Employee ID: 1
+Status: Completed
+Payout: Made
+==================================
+
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> 
+*** POLICIES WITH PAYOUT ***
+==================================
+Policy ID: 0
+Start Date: 01.01.2001
+End Date: 31.12.2001
+Cost: 5000$
+Payout Amount: 10000$
+Policy Type ID: 1
+Client ID: 1
+Employee ID: 1
+Status: Completed
+Payout: Made
+==================================
+
+
+*** MENU ***
+1) Add a new policy
+2) Complete a policy
+3) Mark payout for policy
+4) Increase policy cost
+5) Increase policy payout
+6) List all policies
+7) List active policies
+8) List completed policies
+9) List policies with payout
+0) Quit
+
+---> 
