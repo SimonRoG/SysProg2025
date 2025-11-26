@@ -17,7 +17,7 @@
     - Код виду поліса
     - Відмітка про виплату
     - Відмітка про закінчення
-    - Код клієнта 
+    - Код клієнта
     - Код співробітника
 2. Створити файл main.cpp для екземплярів класу на купі пам'яті і на стеку.
 3. Зібрати проєкт через Makefile.
@@ -39,6 +39,8 @@
     -   автоматичний ввід через `Makefile`
 
 ### Лістинг програми
+
+[***GitHub***](https://github.com/SimonRoG/SysProg2025/blob/main/1PolicyDB/readme.md)
 
 #### [Policy.h](src/Policy.h)
 
@@ -68,7 +70,8 @@ private:
 public:
     // Конструктори
     Policy();
-    Policy(int policyID, string startDate, string endDate, int policyTypeID, int clientID, int employeeID);
+    Policy(int policyID, string startDate, string endDate,
+        int policyTypeID, int clientID, int employeeID);
 
     // Геттери
     int getPolicyID();
@@ -113,7 +116,8 @@ Policy::Policy() {
     employeeID = -1;
 }
 
-Policy::Policy(int policyID, string startDate, string endDate, int policyTypeID, int clientID, int employeeID) {
+Policy::Policy(int policyID, string startDate, string endDate, 
+        int policyTypeID, int clientID, int employeeID) {
     this->policyID = policyID;
     this->startDate = startDate;
     this->endDate = endDate;
@@ -229,7 +233,8 @@ private:
 public:
     PolicyDatabase();
 
-    Policy& addPolicy(string startDate, string endDate, int policyTypeID, int clientID, int employeeID);
+    Policy& addPolicy(string startDate, string endDate, 
+        int policyTypeID, int clientID, int employeeID);
     Policy& getPolicy(int policyID);
 
     void displayAll();
@@ -254,7 +259,8 @@ PolicyDatabase::PolicyDatabase() {
     nextPolicyID = FIRST_POLICY_NUM;
 }
 
-Policy& PolicyDatabase::addPolicy(string startDate, string endDate, int policyTypeID, int clientID, int employeeID) {
+Policy& PolicyDatabase::addPolicy(string startDate, string endDate, 
+        int policyTypeID, int clientID, int employeeID) {
     Policy newPolicy(nextPolicyID++, startDate, endDate, policyTypeID, clientID, employeeID);
     policies.push_back(newPolicy);
     cout << "Policy " << newPolicy.getPolicyID() << " has been activated.\n";
@@ -880,7 +886,7 @@ Payout: Not Made
 9) List policies with payout
 0) Quit
 
----> 
+--->
 *** ALL POLICIES ***
 ==================================
 Policy ID: 0
@@ -934,7 +940,7 @@ Payout: Not Made
 9) List policies with payout
 0) Quit
 
----> 
+--->
 *** ACTIVE POLICIES ***
 ==================================
 Policy ID: 1
@@ -975,7 +981,7 @@ Payout: Not Made
 9) List policies with payout
 0) Quit
 
----> 
+--->
 *** COMPLETED POLICIES ***
 ==================================
 Policy ID: 0
@@ -1003,7 +1009,7 @@ Payout: Made
 9) List policies with payout
 0) Quit
 
----> 
+--->
 *** POLICIES WITH PAYOUT ***
 ==================================
 Policy ID: 0
@@ -1018,5 +1024,7 @@ Status: Completed
 Payout: Made
 ==================================
 ```
+
 ### Висновок
+
 У ході виконання лабораторної роботи було розроблено інформаційну систему для страхової компанії, реалізовано основні класи та функціонал згідно з вимогами завдання. Програма успішно проходить тестування, коректно працює з полісами, забезпечує додавання, зміну стану, збільшення вартості та суми виплати, а також фільтрацію за різними критеріями.
