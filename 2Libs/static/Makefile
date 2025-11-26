@@ -6,16 +6,16 @@ main = $(src)/main.cpp
 lib = policy
 libfile = lib$(lib).a
 
-$(app): $(main) $(libfile) $(cpps)
+$(app): $(objects) $(libfile)
 	g++ $(main) -L. -l$(lib) -o $(app)
 
-all: $(objects) $(libfile) $(app)
+all: $(app)
 
 run: $(app)
 	./$(app)
 
 clean:
-	rm -f $(app)
+	rm -f $(app) $(objects) $(libfile)
 
 %.o: $(src)/%.cpp
 	g++ -c $< -o $@
