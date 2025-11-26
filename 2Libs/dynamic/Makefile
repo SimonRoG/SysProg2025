@@ -18,3 +18,5 @@ clean:
 
 $(libfile):
 	g++ -fPIC -shared $(cpps) -o $(libfile)
+
+update: $(libfile)
